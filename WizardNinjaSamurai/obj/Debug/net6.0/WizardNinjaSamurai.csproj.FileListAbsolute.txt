@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/bin/Debug/net6.0/WizardNinjaSamurai
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/bin/Debug/net6.0/WizardNinjaSamurai.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/bin/Debug/net6.0/WizardNinjaSamurai.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/bin/Debug/net6.0/WizardNinjaSamurai.dll
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/bin/Debug/net6.0/WizardNinjaSamurai.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.dll
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/refint/WizardNinjaSamurai.dll
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/WizardNinjaSamurai.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/WizardNinjaSamurai/obj/Debug/net6.0/ref/WizardNinjaSamurai.dll

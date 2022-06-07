@@ -1,40 +1,40 @@
-﻿// Random Array
-Console.WriteLine("================= Random Array =================");
-static int[] RandomArray()
-{
-    int[] array = new int[10];
-    Random rand = new Random();
-    int max = 0;
-    int min = 0;
-    int sum = 0;
+﻿// // Random Array
+// Console.WriteLine("================= Random Array =================");
+// static int[] RandomArray()
+// {
+//     int[] array = new int[10];
+//     Random rand = new Random();
+//     int max = 0;
+//     int min = 0;
+//     int sum = 0;
 
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = rand.Next(5, 25);
-        Console.WriteLine($"The value at index {i} is: {array[i]}");
-        if (i == 0)
-        {
-            max = array[i];
-            min = array[i];
-        }
-        if (array[i] > max)
-        {
-            max = array[i];
-        }
-        if (array[i] < min)
-        {
-            min = array[i];
-        }
-        sum += array[i];
-    }
-    Console.WriteLine($"The minimum value in the array is: {min}");
-    Console.WriteLine($"The maximum value in the array is: {max}");
-    Console.WriteLine($"The sum of all values in the array is: {sum}");
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i] = rand.Next(5, 25);
+//         Console.WriteLine($"The value at index {i} is: {array[i]}");
+//         if (i == 0)
+//         {
+//             max = array[i];
+//             min = array[i];
+//         }
+//         if (array[i] > max)
+//         {
+//             max = array[i];
+//         }
+//         if (array[i] < min)
+//         {
+//             min = array[i];
+//         }
+//         sum += array[i];
+//     }
+//     Console.WriteLine($"The minimum value in the array is: {min}");
+//     Console.WriteLine($"The maximum value in the array is: {max}");
+//     Console.WriteLine($"The sum of all values in the array is: {sum}");
 
-    return(array);
-}
+//     return(array);
+// }
 
-RandomArray();
+// RandomArray();
 
 // Coin Flip
 Console.WriteLine("================= Single Coin Flip =================");
@@ -66,8 +66,8 @@ static double TossMultipleCoins(int num)
 
     for (int i = 0; i < num; i++)
     {
-        int toss = rand.Next(0, 2);
-        if (toss == 0)
+        string toss = CoinFlip();
+        if (toss == "Heads")
         {
             tosses ++;
             heads ++;

@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/bin/Debug/net6.0/Humans
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/bin/Debug/net6.0/Humans.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/bin/Debug/net6.0/Humans.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/bin/Debug/net6.0/Humans.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/bin/Debug/net6.0/Humans.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/refint/Humans.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/Humans.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Humans/obj/Debug/net6.0/ref/Humans.dll
