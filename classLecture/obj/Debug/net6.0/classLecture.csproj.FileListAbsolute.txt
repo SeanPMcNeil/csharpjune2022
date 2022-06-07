@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/bin/Debug/net6.0/classLecture
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/bin/Debug/net6.0/classLecture.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/bin/Debug/net6.0/classLecture.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/bin/Debug/net6.0/classLecture.dll
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/bin/Debug/net6.0/classLecture.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.dll
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/refint/classLecture.dll
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/classLecture.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/classLecture/obj/Debug/net6.0/ref/classLecture.dll
