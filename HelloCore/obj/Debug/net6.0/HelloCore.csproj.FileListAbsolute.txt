@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/bin/Debug/net6.0/HelloCore
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/bin/Debug/net6.0/HelloCore.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/bin/Debug/net6.0/HelloCore.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/bin/Debug/net6.0/HelloCore.dll
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/bin/Debug/net6.0/HelloCore.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.dll
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/refint/HelloCore.dll
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/HelloCore.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/HelloCore/obj/Debug/net6.0/ref/HelloCore.dll

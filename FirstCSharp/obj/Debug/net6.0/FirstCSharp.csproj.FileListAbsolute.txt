@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/bin/Debug/net6.0/FirstCSharp
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/bin/Debug/net6.0/FirstCSharp.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/bin/Debug/net6.0/FirstCSharp.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/bin/Debug/net6.0/FirstCSharp.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/bin/Debug/net6.0/FirstCSharp.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/refint/FirstCSharp.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/FirstCSharp.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FirstCSharp/obj/Debug/net6.0/ref/FirstCSharp.dll

@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/bin/Debug/net6.0/Basic13
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/bin/Debug/net6.0/Basic13.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/bin/Debug/net6.0/Basic13.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/bin/Debug/net6.0/Basic13.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/bin/Debug/net6.0/Basic13.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/refint/Basic13.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/Basic13.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Basic13/obj/Debug/net6.0/ref/Basic13.dll

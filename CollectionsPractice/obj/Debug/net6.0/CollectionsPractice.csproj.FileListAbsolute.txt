@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.dll
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/bin/Debug/net6.0/CollectionsPractice.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.dll
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/refint/CollectionsPractice.dll
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/CollectionsPractice.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/CollectionsPractice/obj/Debug/net6.0/ref/CollectionsPractice.dll

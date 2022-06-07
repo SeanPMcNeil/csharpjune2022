@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/bin/Debug/net6.0/BoxingUnboxing
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/bin/Debug/net6.0/BoxingUnboxing.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/bin/Debug/net6.0/BoxingUnboxing.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/bin/Debug/net6.0/BoxingUnboxing.dll
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/bin/Debug/net6.0/BoxingUnboxing.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.dll
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/refint/BoxingUnboxing.dll
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/BoxingUnboxing.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/BoxingUnboxing/obj/Debug/net6.0/ref/BoxingUnboxing.dll

@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/bin/Debug/net6.0/Puzzles
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/bin/Debug/net6.0/Puzzles.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/bin/Debug/net6.0/Puzzles.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/bin/Debug/net6.0/Puzzles.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/bin/Debug/net6.0/Puzzles.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/refint/Puzzles.dll
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/Puzzles.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/Puzzles/obj/Debug/net6.0/ref/Puzzles.dll

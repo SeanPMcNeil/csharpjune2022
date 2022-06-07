@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/bin/Debug/net6.0/FundamentalsI
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/bin/Debug/net6.0/FundamentalsI.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/bin/Debug/net6.0/FundamentalsI.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/bin/Debug/net6.0/FundamentalsI.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/bin/Debug/net6.0/FundamentalsI.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/refint/FundamentalsI.dll
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/FundamentalsI.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/FundamentalsI/obj/Debug/net6.0/ref/FundamentalsI.dll

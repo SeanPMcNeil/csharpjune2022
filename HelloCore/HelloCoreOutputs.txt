@@ -1,0 +1,18 @@
+dotnet --version
+6.0.300
+
+mkdir HelloCore 
+cd HelloCore 
+
+dotnet new console
+The template "Console App" was created successfully.
+
+Processing post-creation actions...
+Running 'dotnet restore' on /Users/lowkey/CodingDojo/csharpjune2022/HelloCore/HelloCore.csproj...
+  Determining projects to restore...
+  Restored /Users/lowkey/CodingDojo/csharpjune2022/HelloCore/HelloCore.csproj (in 45 ms).
+Restore succeeded.
+
+dotnet run
+Hello, World!
+
