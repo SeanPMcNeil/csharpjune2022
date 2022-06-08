@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1>Dojo Survey</h1>
+        <form action="result" method="post">
+            <div class="mb-3">
+                <label for="Name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="Name" name="Name">
+            </div>
+            <div class="mb-3">
+                <label for="Dojo" class="form-label">Dojo Location:</label>
+                <select class="form-select" name="Dojo">
+                    <option selected>Open this select menu</option>
+                    <option value="San Jose">San Jose</option>
+                    <option value="Burbank">Burbank</option>
+                    <option value="Chicago">Chicago</option>
+                    <option value="Online">Online</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Language" class="form-label">Favorite Language</label>
+                <select class="form-select" name="Language">
+                    <option selected>Open this select menu</option>
+                    <option value="C#">C#</option>
+                    <option value="Java">Java</option>
+                    <option value="Python">Python</option>
+                    <option value="Assembly">Assembly</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="Comment" class="form-label">Comment (optional):</label>
+                <textarea class="form-control" id="Comment" name="Comment" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>

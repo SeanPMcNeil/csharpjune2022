@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "GInktzW/XFmLgcWhnWY3H6YA858i4ClXs1Mbcf7PIqU=",
+  "Source": "PortfolioII",
+  "BasePath": "_content/PortfolioII",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioII/wwwroot",
+      "Source": "PortfolioII",
+      "ContentRoot": "/Users/lowkey/CodingDojo/csharpjune2022/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/lowkey/CodingDojo/csharpjune2022/PortfolioII/wwwroot/images/PortfolioImg.jpg",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lowkey/CodingDojo/csharpjune2022/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/PortfolioImg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/PortfolioImg.jpg"
+    },
+    {
+      "Identity": "/Users/lowkey/CodingDojo/csharpjune2022/PortfolioII/wwwroot/images/WhereStreamScreen.png",
+      "SourceId": "PortfolioII",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/lowkey/CodingDojo/csharpjune2022/PortfolioII/wwwroot/",
+      "BasePath": "_content/PortfolioII",
+      "RelativePath": "images/WhereStreamScreen.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/WhereStreamScreen.png"
+    }
+  ]
+}
