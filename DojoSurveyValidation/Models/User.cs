@@ -16,4 +16,23 @@ public class User
 
     [MinLength(20)]
     public string? Comment { get; set; }
+
+    [Required]
+    [DataType(DataType.Date)]
+    [FutureDate]
+    public DateTime Date { get; set; }
 }
+
+public class FutureDateAttribute : ValidationAttribute
+{
+    protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+    {
+        
+        if (((DateTime)value) > DateTime.Now)
+        {
+            return new ValidationResult("Date cannot be greater than today's date");
+        }
+        return ValidationResult.Success;
+    }
+}
+
