@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<div class="text-center">
+    <form action="process" method="post">
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="FavColor">FavoriteColor</label>
+            <input asp-for="FavColor" class="form-control">
+            <span asp-validation-for="FavColor" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="FavNum">Favorite Number</label>
+            <input asp-for="FavNum" class="form-control">
+            <span asp-validation-for="FavNum" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </div>
+    </form>
+</div>

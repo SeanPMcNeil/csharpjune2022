@@ -173,6 +173,29 @@ class SLL {
             return false;
         }
     }
+
+    prepend(ValA, ValB) {
+        let runner = this.head;
+        if(runner.data == ValB){
+            this.insertAtFront(ValA);
+            return true;
+        }
+        if(this.isEmpty()){
+            return false;
+        }
+        while(runner.next){
+            if(runner.next.data == ValB){
+                break;
+            }
+            runner = runner.next;
+        }
+        if(!runner.next){
+            return false;
+        }
+        let temp = runner.next;
+        runner.next = new Node(ValA, temp);
+        return true;
+    }
 }
 
 const ll = new SLL();

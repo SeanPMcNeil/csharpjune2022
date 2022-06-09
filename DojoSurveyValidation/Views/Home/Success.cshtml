@@ -1,0 +1,13 @@
+@model User
+
+<h1>Submitted Info</h1>
+
+<p>Your Name:           <span class="text-primary">@Model.Name</span></p>
+<p>Dojo Location:       <span class="text-primary">@Model.Dojo</span></p>
+<p>Favorite Language:   <span class="text-primary">@Model.Language</span></p>
+@{
+    if (Model.Comment != null)
+    {
+        <p>Comment:             <span class="text-primary">@Model.Comment</span></p>
+    }
+}

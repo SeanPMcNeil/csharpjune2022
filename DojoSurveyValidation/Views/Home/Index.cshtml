@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model User
+
+<div class="text-center">
+    <form action="process" method="post">
+        <div class="form-group">
+            <label for="Name">Your Name:</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Dojo">FavoriteColor</label>
+            <select asp-for="Dojo" class="form-select">
+                <option selected>Open this select menu</option>
+                <option value="San Jose">San Jose</option>
+                <option value="Burbank">Burbank</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Online">Online</option>
+            </select>
+            <span asp-validation-for="Dojo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Language">FavoriteColor</label>
+            <select asp-for="Language" class="form-select">
+                <option selected>Open this select menu</option>
+                <option value="C#">C#</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="Assembly">Assembly</option>
+            </select>
+            <span asp-validation-for="Language" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Comment">Comment (optional): </label>
+            <textarea asp-for="Comment" class="form-control"></textarea>
+            <span asp-validation-for="Comment" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit" class="btn btn-info">
+        </div>
+    </form>
+</div>
