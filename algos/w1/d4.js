@@ -129,7 +129,6 @@ class SLL {
         var runner = this.head;
         if (runner.data == val){
             this.removeHead();
-            this.size--;
             return true;
         }
         let previous;
