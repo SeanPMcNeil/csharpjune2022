@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div class="password-section">
+        <h1>Random Passcode (passcode #@Context.Session.GetInt32("Count")<span>)</span></h1>
+        <form action="generate" method="get">
+            <input type="hidden" name="Passcode">
+            <div class="row">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>
+                            @Context.Session.GetString("RandomPass")
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <input type="submit" value="Generate" class="btn btn-primary">
+        </form>
+    </div>
+    <a href="clear" class="btn btn-danger">Clear Count</a>
+</div>
