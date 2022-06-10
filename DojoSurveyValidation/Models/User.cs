@@ -35,4 +35,3 @@ public class FutureDateAttribute : ValidationAttribute
         return ValidationResult.Success;
     }
 }
-
