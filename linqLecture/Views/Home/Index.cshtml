@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>All games in the database</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Platform</th>
+        </tr>
+        @foreach(Game g in ViewBag.AllGames)
+        {
+            <tr>
+                <td>@g.Title</td>
+                <td>$@g.Price</td>
+                <td>@g.Genre</td>
+                <td>@g.Rating</td>
+                <td>@g.Platform</td>
+            </tr>
+        }
+    </table>
+    <h1>Available on All Platforms</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Platform</th>
+        </tr>
+        @foreach(Game g in ViewBag.AllPlatforms)
+        {
+            <tr>
+                <td>@g.Title</td>
+                <td>$@g.Price</td>
+                <td>@g.Genre</td>
+                <td>@g.Rating</td>
+                <td>@g.Platform</td>
+            </tr>
+        }
+    </table>
+    <h1>Top 3 Rated M Games by Price</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Platform</th>
+        </tr>
+        @foreach(Game g in ViewBag.TopMGames)
+        {
+            <tr>
+                <td>@g.Title</td>
+                <td>$@g.Price</td>
+                <td>@g.Genre</td>
+                <td>@g.Rating</td>
+                <td>@g.Platform</td>
+            </tr>
+        }
+    </table>
+
+    <h1>Your Search Result for Rocket League</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Platform</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.SingleGame.Title</td>
+            <td>$@ViewBag.SingleGame.Price</td>
+            <td>@ViewBag.SingleGame.Genre</td>
+            <td>@ViewBag.SingleGame.Rating</td>
+            <td>@ViewBag.SingleGame.Platform</td>
+        </tr>
+    </table>
+</div>

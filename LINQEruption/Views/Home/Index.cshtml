@@ -1,0 +1,146 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1>First Eruption in Chile</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.FirstChile.Volcano</td>
+            <td>@ViewBag.FirstChile.Year</td>
+            <td>@ViewBag.FirstChile.Location</td>
+            <td>@ViewBag.FirstChile.ElevationInMeters</td>
+            <td>@ViewBag.FirstChile.Type</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>First Eruption from the Hawaiian Islands</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        @if (ViewBag.FirstHawaiian == null)
+        {
+            <tr>No Hawaiian Is Eruption Found</tr>
+        } else
+        {
+            <tr>
+                <td>@ViewBag.FirstHawaiian.Volcano</td>
+                <td>@ViewBag.FirstHawaiian.Year</td>
+                <td>@ViewBag.FirstHawaiian.Location</td>
+                <td>@ViewBag.FirstHawaiian.ElevationInMeters</td>
+                <td>@ViewBag.FirstHawaiian.Type</td>
+            </tr>
+        }
+        
+    </table>
+    <hr>
+    <h1>First Eruption after New Zealand After 1900</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        <tr>
+            <td>@ViewBag.NewZeaPost1900.Volcano</td>
+            <td>@ViewBag.NewZeaPost1900.Year</td>
+            <td>@ViewBag.NewZeaPost1900.Location</td>
+            <td>@ViewBag.NewZeaPost1900.ElevationInMeters</td>
+            <td>@ViewBag.NewZeaPost1900.Type</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Eruptions Over 2000m</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        @foreach(Eruption e in ViewBag.Over2000)
+        {
+            <tr>
+                <td>@e.Volcano</td>
+                <td>@e.Year</td>
+                <td>@e.Location</td>
+                <td>@e.ElevationInMeters</td>
+                <td>@e.Type</td>
+            </tr>
+        }
+    </table>
+    <hr>
+    <h1>Eruptions from Volcanos That Start With Z</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        @foreach(Eruption e in ViewBag.StartZ)
+        {
+            <tr>
+                <td>@e.Volcano</td>
+                <td>@e.Year</td>
+                <td>@e.Location</td>
+                <td>@e.ElevationInMeters</td>
+                <td>@e.Type</td>
+            </tr>
+        }
+    </table>
+    <h4>Eruptions Count: @ViewBag.StartZ.Count</h4>
+    <hr>
+    <h1>Highest Elevation: @ViewBag.HighestElevation</h1>
+    <h1>Volcano Name: @ViewBag.HighestName</h1>
+    <hr>
+    <h1>Volcanos in Alphabetical Order</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+        </tr>
+        @foreach(Eruption e in ViewBag.AllAlpha)
+        {
+            <tr>
+                <td>@e.Volcano</td>
+            </tr>
+        }
+    </table>
+    <hr>
+    <h1>Eruptions Before 1000 CE Alphabetically</h1>
+    <table class="table table-striped">
+        <tr>
+            <th>Volcano</th>
+            <th>Year</th>
+            <th>Location</th>
+            <th>Elevation (m)</th>
+            <th>Type</th>
+        </tr>
+        @foreach(Eruption e in ViewBag.Before1000)
+        {
+            <tr>
+                <td>@e.Volcano</td>
+                <td>@e.Year</td>
+                <td>@e.Location</td>
+                <td>@e.ElevationInMeters</td>
+                <td>@e.Type</td>
+            </tr>
+        }
+    </table>
+</div>
