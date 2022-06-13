@@ -81,6 +81,10 @@ public class HomeController : Controller
         List<Eruption> before1000 = eruptions.Where(y => y.Year < 1000).OrderBy(v => v.Volcano).ToList();
         ViewBag.Before1000 = before1000;
 
+        // Eruptions before 1000 Names Only Alphabetically
+        List<string> before1000Names = eruptions.Where(y => y.Year < 1000).OrderBy(v => v.Volcano).Select(o => o.Volcano).ToList();
+        ViewBag.Before1000Names = before1000Names;
+
         return View();
     }
 
