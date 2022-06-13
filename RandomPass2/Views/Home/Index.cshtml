@@ -9,3 +9,13 @@
     <button class="btn btn-lg btn-success" id="genpass" onclick="genpass">Generate a New Password!!</button>
     <a href="/clear" class="btn btn-sm btn-danger">Reset Count</a>
 </div>
+
+
+@section Scripts
+{
+<script type="text/javascript">
+    $("document").ready(function(){
+        $("#genpass").trigger('click');
+    });
+</script>
+}
