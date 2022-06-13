@@ -3,17 +3,9 @@
 }
 
 <div class="text-center">
-    <div id="pass-field">
-        <partial name="PassPartial"/>
+    <div id="passfield">
+        
     </div>
-    <button class="btn btn-success" id="GenPass">Generate!</button>
+    <button class="btn btn-lg btn-success" id="genpass" onclick="genpass">Generate a New Password!!</button>
+    <a href="/clear" class="btn btn-sm btn-danger">Reset Count</a>
 </div>
-
-@section scripts{
-    <script type="text/javascript">
-        $("#GenPass").click(function(){
-            @* $("#pass-field").html("<b> Hello World! </b>"); *@
-            $("#pass-field").html('<partial name="PassPartial"/>');
-        });
-    </script>
-}

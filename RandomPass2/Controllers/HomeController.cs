@@ -20,31 +20,38 @@ public class HomeController : Controller
         return View();
     }
 
-    // [HttpGet]
-    // public IActionResult GeneratePartial()
-    // {
+    [HttpGet("password")]
+    public IActionResult Password()
+    {
 
-    //     if (HttpContext.Session.GetInt32("Count") == null)
-    //     {
-    //         HttpContext.Session.SetInt32("Count", 0);
-    //     }
+        if (HttpContext.Session.GetInt32("Count") == null)
+        {
+            HttpContext.Session.SetInt32("Count", 0);
+        }
 
-    //     int? start = HttpContext.Session.GetInt32("Count");
-    //     HttpContext.Session.SetInt32("Count", (int)start + 1);
+        int? start = HttpContext.Session.GetInt32("Count");
+        HttpContext.Session.SetInt32("Count", (int)start + 1);
 
-    //     string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-    //     char[] stringChars = new char[14];
-    //     var random = new Random();
+        string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        char[] stringChars = new char[14];
+        var random = new Random();
 
-    //     for (int i = 0; i < stringChars.Length; i++)
-    //     {
-    //         stringChars[i] = chars[random.Next(chars.Length)];
-    //     }
+        for (int i = 0; i < stringChars.Length; i++)
+        {
+            stringChars[i] = chars[random.Next(chars.Length)];
+        }
         
-    //     HttpContext.Session.SetString("RandomPass", new String(stringChars));
+        HttpContext.Session.SetString("RandomPass", new String(stringChars));
 
-    //     return PartialView("PassPartial");
-    // }
+        return PartialView();
+    }
+
+    [HttpGet("clear")]
+    public IActionResult Clear()
+    {
+        HttpContext.Session.Clear();
+        return RedirectToAction("Index");
+    }
     public IActionResult Privacy()
     {
         return View();
