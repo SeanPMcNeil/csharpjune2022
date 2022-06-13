@@ -1,0 +1,35 @@
+<p>Here's the partial!</p>
+
+@{
+    if (Context.Session.GetInt32("Count") == null)
+            {
+                Context.Session.SetInt32("Count", 0);
+            }
+
+        int? start = Context.Session.GetInt32("Count");
+        Context.Session.SetInt32("Count", (int)start + 1);
+
+        string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        char[] stringChars = new char[14];
+        var random = new Random();
+
+        for (int i = 0; i < stringChars.Length; i++)
+        {
+            stringChars[i] = chars[random.Next(chars.Length)];
+        }
+        
+        Context.Session.SetString("RandomPass", new String(stringChars));
+}
+
+<h1>Random Passcode (passcode #@Context.Session.GetInt32("Count")<span>)</span></h1>
+            <div class="row">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>
+                            <div class="pass-field">
+                                <h5>@Context.Session.GetString("RandomPass")</h5>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>

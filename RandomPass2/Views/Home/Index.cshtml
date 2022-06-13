@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <div id="pass-field">
+        <partial name="PassPartial"/>
+    </div>
+    <button class="btn btn-success" id="GenPass">Generate!</button>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        $("#GenPass").click(function(){
+            @* $("#pass-field").html("<b> Hello World! </b>"); *@
+            $("#pass-field").html('<partial name="PassPartial"/>');
+        });
+    </script>
+}

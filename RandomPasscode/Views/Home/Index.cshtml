@@ -5,18 +5,18 @@
 <div class="text-center">
     <div class="password-section">
         <h1>Random Passcode (passcode #@Context.Session.GetInt32("Count")<span>)</span></h1>
-        <form action="generate" method="get">
             <div class="row">
-                <table class="table table-bordered">
-                    <tr>
-                        <td>
+            <table class="table table-bordered">
+                <tr>
+                    <td>
+                        <div class="pass-field">
                             <h5>@Context.Session.GetString("RandomPass")</h5>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <button type="submit" class="btn btn-primary">Generate</button>
-        </form>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <a href="generate" class="btn btn-primary">Generate</a>
     </div>
     <a href="clear" class="btn btn-danger">Clear Count</a>
 </div>
