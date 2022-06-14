@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Dish
+
+<div class="text-center">
+    <h1>Welcome to <span class="text-success">CRUDelicious</span></h1>
+    <div class="row">
+        <div class="col-8">
+            <p class="text-start">Check out some recent dishes!</p>
+        </div>
+        <div class="col text-end">
+            <a href="/dish/new" class="btn btn-primary">Add a Dish</a>
+        </div>
+    </div>
+    <hr>
+    <ul class="list-group text-start">
+        @foreach (Dish d in ViewBag.AllDishes)
+        {
+            <li class="list-group-item"><a href="/dish/@d.DishId">@d.Name</a> by @d.Chef</li>
+        }
+    </ul>
+
+</div>
