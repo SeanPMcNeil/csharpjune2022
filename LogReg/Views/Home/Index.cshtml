@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="text-center">
+    <div class="row">
+        <div class="col-10 text-start">
+            <h1>Register to this Cool Site!</h1>
+        </div>
+        <div class="col-2 text-end">
+            <a href="/login" class="btn btn-info">Login</a>
+        </div>
+    </div>
+    <form action="/user/register" method="post">
+        <div class="form-group">
+            <label for="FirstName">First Name:</label>
+            <input asp-for="FirstName" class="form-control">
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="LastName">Last Name:</label>
+            <input asp-for="LastName" class="form-control">
+            <span asp-validation-for="LastName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email:</label>
+            <input asp-for="Email" class="form-control">
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="Password">Password:</label>
+            <input asp-for="Password" class="form-control">
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label for="ConfirmPass">First Name:</label>
+            <input asp-for="ConfirmPass" class="form-control">
+            <span asp-validation-for="ConfirmPass" class="text-danger"></span>
+        </div>
+        <div class="form-group mt-2">
+            <input type="submit" value="Sign Up Now!" class="btn btn-primary">
+        </div>
+    </form>
+</div>
