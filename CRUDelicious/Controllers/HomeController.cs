@@ -70,15 +70,22 @@ public class HomeController : Controller
     public IActionResult ProcessEdit(int dishId, Dish newVersionOfDish)
     {
         Dish oldDish = _context.Dishes.FirstOrDefault(d => d.DishId == dishId);
-        oldDish.Name = newVersionOfDish.Name;
-        oldDish.Chef = newVersionOfDish.Chef;
-        oldDish.Tastiness = newVersionOfDish.Tastiness;
-        oldDish.Calories = newVersionOfDish.Calories;
-        oldDish.Description = newVersionOfDish.Description;
-        oldDish.UpdatedAt = DateTime.Now;
-        _context.SaveChanges();
+        if (ModelState.IsValid)
+        {
+            oldDish.Name = newVersionOfDish.Name;
+            oldDish.Chef = newVersionOfDish.Chef;
+            oldDish.Tastiness = newVersionOfDish.Tastiness;
+            oldDish.Calories = newVersionOfDish.Calories;
+            oldDish.Description = newVersionOfDish.Description;
+            oldDish.UpdatedAt = DateTime.Now;
+            _context.SaveChanges();
 
-        return RedirectToAction("OneDish", new{ dishId = dishId } );
+            return RedirectToAction("OneDish", oldDish );
+        }
+        else
+        {
+            return View("EditDish", oldDish);
+        }
     }
     public IActionResult Privacy()
     {
