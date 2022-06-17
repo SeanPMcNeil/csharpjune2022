@@ -106,8 +106,7 @@ public class HomeController : Controller
         {
             return RedirectToAction("Index");
         }
-        User loggedInUser = _context.Users.FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
-        ViewBag.AllTransactions = _context.Transactions.Include(a => a.User).ToList();
+        User loggedInUser = _context.Users.Include(a => a.PostedTransactions).FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
         return View(loggedInUser);
     }
 

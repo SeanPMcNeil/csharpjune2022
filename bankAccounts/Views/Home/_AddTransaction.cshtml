@@ -1,0 +1,25 @@
+@model Transaction
+<div class="row">
+    <p>Current Balance:</p>
+        <table class="table">
+            <tr>
+                <td>@{
+                        float balance = 0;
+                        foreach(Transaction t in ViewBag.AllTransactions)
+                        {
+                            balance += t.Amount;
+                        }
+                    }@balance</td>
+            </tr>
+        </table>
+</div>
+<form action="/transaction/add" method="post">
+    <div class="form-group">
+        <label for="Amount">Deposit/Withdraw:</label>
+        <input asp-for="Amount" class="form-control">
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-info">
+    </div>
+</form>

@@ -1,0 +1,28 @@
+@model Castlist
+
+<div class="text-center">
+    <h2>Add Actors to Movies</h2>
+    <form action="/castlist/add" method="post">
+        <div class="form-group">
+            <label for="ActorId">Actor: </label>
+            <select asp-for="ActorId" class="form-select">
+                @foreach (Actor a in ViewBag.AllActors)
+                {
+                    <option value="@a.ActorId">@a.FirstName @a.LastName</option>
+                }
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="MovieId">Movie: </label>
+            <select asp-for="MovieId" class="form-select">
+                @foreach (Movie a in ViewBag.AllMovies)
+                {
+                    <option value="@a.MovieId">@a.Title</option>
+                }
+            </select>
+        </div>
+        <div class="form-group mt-2">
+            <input type="submit" value="Add Role" class="btn btn-primary">
+        </div>
+    </form>
+</div>
