@@ -61,7 +61,7 @@ public class HomeController : Controller
     {
         if (HttpContext.Session.GetInt32("user") != null)
         {
-            return RedirectToAction("Account", new { userId = HttpContext.Session.GetInt32("user")});
+            return RedirectToAction("Account", new { userId = HttpContext.Session.GetInt32("user")} );
         }
         else
         {
@@ -105,9 +105,41 @@ public class HomeController : Controller
         if (HttpContext.Session.GetInt32("user") == null)
         {
             return RedirectToAction("Index");
+        } 
+
+        ViewBag.User = _context.Users.Include(a => a.PostedTransactions).FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
+        ViewBag.AllTransactions = _context.Transactions.OrderByDescending(d => d.CreatedAt).Where(u => u.UserId == (int)HttpContext.Session.GetInt32("user"));
+        return View();
+    }
+
+    [HttpPost("transaction/add")]
+    public IActionResult AddTransaction(Transaction newTransaction)
+    {
+        if (ModelState.IsValid)
+        {
+            var AllTransactions = _context.Transactions.Where(u => u.UserId == (int)HttpContext.Session.GetInt32("user"));
+            float balance = 0;
+            foreach (Transaction t in AllTransactions)
+            {
+                balance += t.Amount;
+            }
+            if ((balance + newTransaction.Amount) < 0)
+            {
+                ModelState.AddModelError("Amount", "Amount to Withdraw cannot exceed Account Balance");
+                ViewBag.User = _context.Users.Include(a => a.PostedTransactions).FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
+                ViewBag.AllTransactions = _context.Transactions.OrderByDescending(d => d.CreatedAt).Where(u => u.UserId == (int)HttpContext.Session.GetInt32("user"));
+                return View("Account");
+            }
+            _context.Add(newTransaction);
+            _context.SaveChanges();
+            return RedirectToAction("Account", new { userId = HttpContext.Session.GetInt32("user")} );
         }
-        User loggedInUser = _context.Users.Include(a => a.PostedTransactions).FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
-        return View(loggedInUser);
+        else
+        {
+            ViewBag.User = _context.Users.Include(a => a.PostedTransactions).FirstOrDefault(a => a.UserId == (int)HttpContext.Session.GetInt32("user"));
+            ViewBag.AllTransactions = _context.Transactions.OrderByDescending(d => d.CreatedAt).Where(u => u.UserId == (int)HttpContext.Session.GetInt32("user"));
+            return View("Account");
+        }
     }
 
     [HttpGet("logout")]
