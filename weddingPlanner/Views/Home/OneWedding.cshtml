@@ -1,0 +1,28 @@
+@model Wedding
+
+<div class="row">
+    <div class="col-8 text-start">
+        <h2>@Model.WedderOne and @Model.WedderTwo's Wedding</h2>
+    </div>
+    <div class="col text-end">
+        <a href="/dashboard" class="btn btn-success">Dashboard</a>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+<div class="row">
+    <h5>Date: @Model.Date.ToLongDateString()</h5>
+</div>
+<div class="row">
+    <div class="col-6">
+        <h5>Guests:</h5>
+        <ul class="text-center">
+            @foreach (Guest g in Model.Attendees)
+            {
+                <li>@g.User.FirstName @g.User.LastName</li>
+            }
+        </ul>
+    </div>
+    <div class="col-6">
+        <p class="text-center">Placeholder for Google Map</p>
+    </div>
+</div>

@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col">
+        <h1 class="text-start">Hello @ViewBag.LoggedUser.FirstName!</h1>
+    </div>
+    <div class="col text-end">
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+<div class="row text-center">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Wedding</th>
+                <th scope="col">Date</th>
+                <th scope="col">Guests</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Wedding w in ViewBag.AllWeddings)
+            {
+                <tr>
+                    <td><a href="/wedding/@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+                    <td>@w.Date.ToLongDateString()</td>
+                    <td>@w.Attendees.Count</td>
+                    @if (w.UserId == ViewBag.LoggedUser.UserId)
+                    {
+                        <td>Delete</td>
+                    }
+                    else
+                    {
+                        <td>RSVP/Un-RSVP</td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<div class="row justify-content-end">
+    <div class="col-2 text-end">
+        <a href="/wedding/create" class="btn btn-info">New Wedding</a>
+    </div>
+</div>
