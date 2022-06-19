@@ -124,7 +124,48 @@ public class HomeController : Controller
     public IActionResult OneWedding(int weddingId)
     {
         Wedding oneWedding = _context.Weddings.Include(a => a.Attendees).ThenInclude(a => a.User).FirstOrDefault(a => a.WeddingId == weddingId);
+        ViewBag.apiKey = Environment.GetEnvironmentVariable("GMAPS_API_KEY");
         return View(oneWedding);
+    }
+
+    [HttpGet("wedding/{weddingId}/delete")]
+    public IActionResult DeleteWedding(int weddingId)
+    {
+        Wedding singleWedding = _context.Weddings.SingleOrDefault(w => w.WeddingId == weddingId);
+        _context.Weddings.Remove(singleWedding);
+        _context.SaveChanges();
+        return RedirectToAction("Dashboard");
+    }
+
+    [HttpPost("wedding/reserve")]
+    public IActionResult RSVP(Guest newGuest)
+    {
+        if (ModelState.IsValid)
+        {
+            _context.Add(newGuest);
+            _context.SaveChanges();
+            return RedirectToAction("Dashboard");
+        }
+        else
+        {
+            return View("Dashboard");
+        }
+    }
+    
+    [HttpPost("wedding/unreserve")]
+    public IActionResult unRSVP(Guest oneGuest)
+    {
+        if (ModelState.IsValid)
+        {
+            Guest singleGuest = _context.Guests.FirstOrDefault(a => a.UserId == oneGuest.UserId && a.WeddingId == oneGuest.WeddingId);
+            _context.Guests.Remove(singleGuest);
+            _context.SaveChanges();
+            return RedirectToAction("Dashboard");
+        }
+        else
+        {
+            return View("Dashboard");
+        }
     }
 
     [HttpGet("logout")]

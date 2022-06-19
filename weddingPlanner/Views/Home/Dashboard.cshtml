@@ -23,13 +23,36 @@
                     <td><a href="/wedding/@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
                     <td>@w.Date.ToLongDateString()</td>
                     <td>@w.Attendees.Count</td>
+                    @{
+                        List<int> guestIds = new List<int>();
+                        foreach(Guest g in w.Attendees)
+                        {
+                            guestIds.Add(g.UserId);
+                        }
+                    }
                     @if (w.UserId == ViewBag.LoggedUser.UserId)
                     {
-                        <td>Delete</td>
+                        <td><a href="/wedding/@w.WeddingId/delete" class="btn btn-danger btn-sm">Delete</a></td>
+                    }
+                    else if (!guestIds.Contains(ViewBag.LoggedUser.UserId))
+                    {
+                        <td>
+                            <form action="/wedding/reserve" method="post">
+                                <input type="hidden" name="WeddingId" value="@w.WeddingId">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedUser.UserId">
+                                <input type="submit" value="RSVP" class="btn btn-primary btn-sm">
+                            </form>
+                        </td>
                     }
                     else
                     {
-                        <td>RSVP/Un-RSVP</td>
+                        <td>
+                            <form action="/wedding/unreserve" method="post">
+                                <input type="hidden" name="WeddingId" value="@w.WeddingId">
+                                <input type="hidden" name="UserId" value="@ViewBag.LoggedUser.UserId">
+                                <input type="submit" value="Un-RSVP" class="btn btn-warning btn-sm">
+                            </form>
+                        </td>
                     }
                 </tr>
             }

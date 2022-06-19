@@ -23,6 +23,18 @@
         </ul>
     </div>
     <div class="col-6">
-        <p class="text-center">Placeholder for Google Map</p>
+        <p class="text-center">@Model.Address</p>
+        <div id="map" class="text-center">
+            <iframe
+                width="600"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/place?key=@ViewBag.apiKey
+                    &q=@Model.Address">
+            </iframe>
+        </div>
     </div>
 </div>
