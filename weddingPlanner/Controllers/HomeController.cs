@@ -23,10 +23,24 @@ public class HomeController : Controller
     [HttpGet("")]
     public IActionResult Index()
     {
+        int count = 0;
+        foreach (Wedding w in _context.Weddings)
+        {
+            if (w.Date < DateTime.Now)
+            {
+                _context.Remove(w);
+                count ++;
+            }
+        }
+        _context.SaveChanges();
+        
+        Console.WriteLine(count + " entries removed from database");
+
         if (HttpContext.Session.GetInt32("user") != null)
         {
             return RedirectToAction("Dashboard");
         }
+
         return View();
     }
 
