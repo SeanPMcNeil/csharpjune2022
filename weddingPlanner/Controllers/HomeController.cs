@@ -10,12 +10,14 @@ namespace weddingPlanner.Controllers;
 public class HomeController : Controller
 {
     private MyContext _context;
+    private readonly IConfiguration _config;
     private readonly ILogger<HomeController> _logger;
 
-    public HomeController(ILogger<HomeController> logger, MyContext context)
+    public HomeController(ILogger<HomeController> logger, MyContext context, IConfiguration config)
     {
         _logger = logger;
         _context = context;
+        _config = config;
     }
 
     [HttpGet("")]
@@ -124,7 +126,7 @@ public class HomeController : Controller
     public IActionResult OneWedding(int weddingId)
     {
         Wedding oneWedding = _context.Weddings.Include(a => a.Attendees).ThenInclude(a => a.User).FirstOrDefault(a => a.WeddingId == weddingId);
-        ViewBag.apiKey = Environment.GetEnvironmentVariable("GMAPS_API_KEY");
+        ViewBag.apiKey = _config["GoogleMaps:ApiKey"];
         return View(oneWedding);
     }
 

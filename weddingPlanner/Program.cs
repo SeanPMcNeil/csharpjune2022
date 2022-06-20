@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using weddingPlanner.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+var mapsApiKey = builder.Configuration["GoogleMaps:ApiKey"];
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
