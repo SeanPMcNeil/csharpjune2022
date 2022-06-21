@@ -148,6 +148,10 @@ public class HomeController : Controller
     public IActionResult DeleteWedding(int weddingId)
     {
         Wedding singleWedding = _context.Weddings.SingleOrDefault(w => w.WeddingId == weddingId);
+        if (singleWedding.UserId != HttpContext.Session.GetInt32("user"))
+        {
+            return RedirectToAction("Dashboard");
+        }
         _context.Weddings.Remove(singleWedding);
         _context.SaveChanges();
         return RedirectToAction("Dashboard");
@@ -158,6 +162,10 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
+            if (newGuest.UserId != HttpContext.Session.GetInt32("user"))
+            {
+                return RedirectToAction("Dashboard");
+            }
             _context.Add(newGuest);
             _context.SaveChanges();
             return RedirectToAction("Dashboard");
@@ -173,6 +181,10 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
+            if (oneGuest.UserId != HttpContext.Session.GetInt32("user"))
+            {
+                return RedirectToAction("Dashboard");
+            }
             Guest singleGuest = _context.Guests.FirstOrDefault(a => a.UserId == oneGuest.UserId && a.WeddingId == oneGuest.WeddingId);
             _context.Guests.Remove(singleGuest);
             _context.SaveChanges();
