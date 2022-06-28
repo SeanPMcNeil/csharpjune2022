@@ -76,6 +76,8 @@ const queue = new Queue();
 
 queue.enqueue(1).enqueue(2).enqueue(3);
 queue.log();
+console.log(queue.front());
 queue.dequeue();
 queue.log();
 console.log(queue.front());
+queue.log();
