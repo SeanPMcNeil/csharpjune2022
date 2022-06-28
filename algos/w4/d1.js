@@ -1,5 +1,5 @@
 // Stacks
-/* LIFO = Last In First Out */
+/* LIFO = Last In First Out  | FILO = First In Last Out */
 
 class Node
 {
