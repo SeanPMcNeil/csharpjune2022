@@ -145,8 +145,6 @@ class Queue
         }
 
         return sum1 == sum2;
-
-        // Set full size variable, dequeue into 2 arrays, split at the half, iterate through arrays, adding values to sums,
     }
 }
 
