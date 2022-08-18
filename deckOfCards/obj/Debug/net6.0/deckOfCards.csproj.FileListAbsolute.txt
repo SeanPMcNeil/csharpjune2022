@@ -1,0 +1,15 @@
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/bin/Debug/net6.0/deckOfCards
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/bin/Debug/net6.0/deckOfCards.deps.json
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/bin/Debug/net6.0/deckOfCards.runtimeconfig.json
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/bin/Debug/net6.0/deckOfCards.dll
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/bin/Debug/net6.0/deckOfCards.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.csproj.AssemblyReference.cache
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.AssemblyInfoInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.AssemblyInfo.cs
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.csproj.CoreCompileInputs.cache
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.dll
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/refint/deckOfCards.dll
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.pdb
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/deckOfCards.genruntimeconfig.cache
+/Users/lowkey/CodingDojo/csharpjune2022/deckOfCards/obj/Debug/net6.0/ref/deckOfCards.dll
